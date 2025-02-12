@@ -1,9 +1,9 @@
 # Swag2Curl
 
+Este script Python gera comandos cURL com base na documentação Swagger/OpenAPI de uma API.
+
 ![image](https://github.com/user-attachments/assets/b1f2e07e-3d81-4462-8758-f803872e785e)
 
-
-Este script Python gera comandos cURL com base na documentação Swagger/OpenAPI de uma API.
 
 🚀 Funcionalidades
 
