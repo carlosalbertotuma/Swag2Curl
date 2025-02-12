@@ -4,28 +4,28 @@ Este script Python gera comandos cURL com base na documentação Swagger/OpenAPI
 
 🚀 Funcionalidades
 
-Converte endpoints do Swagger/OpenAPI em comandos cURL
+- Converte endpoints do Swagger/OpenAPI em comandos cURL
 
-Suporta autenticação via Basic Auth, Bearer Token e API Key
+- Suporta autenticação via Basic Auth, Bearer Token e API Key
 
-Adiciona automaticamente parâmetros de query, headers e corpo da requisição
+- Adiciona automaticamente parâmetros de query, headers e corpo da requisição
 
-Suporte para uploads de arquivos com multipart/form-data
+- Suporte para uploads de arquivos com multipart/form-data
 
-Mantém o formato de uma única linha para facilitar a cópia e execução
-
+- Mantém o formato de uma única linha para facilitar a cópia e execução
+  
 📌 Pré-requisitos
 
-Python 3.x
+- Python 3.x
 
-Biblioteca requests (pode ser instalada com pip install requests)
+- Biblioteca requests (pode ser instalada com pip install requests)
 
 🔧 Instalação
 
 Clone o repositório:
 
- git clone https://github.com/seu-usuario/swagger-to-curl.git
- cd swagger-to-curl
+ - git clone https://github.com/seu-usuario/swagger-to-curl.git
+ - cd swagger-to-curl
 
 🛠️ Uso
 
