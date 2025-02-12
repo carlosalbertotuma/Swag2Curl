@@ -31,25 +31,25 @@ Clone o repositório:
 
 Execute o script passando a URL da documentação Swagger:
 
-python3 script.py <swagger_url>
+- python3 script.py <swagger_url>
 
 🔑 Autenticação
 
 Basic Auth:
 
-python3 script.py <swagger_url> --user <username> <password>
+- python3 script.py <swagger_url> --user <username> <password>
 
 Bearer Token:
 
-python3 script.py <swagger_url> --Bearer <your_token>
+- python3 script.py <swagger_url> --Bearer <your_token>
 
 API Key:
 
-python3 script.py <swagger_url> --key <your_api_key>
+- python3 script.py <swagger_url> --key <your_api_key>
 
 📌 Exemplo de saída
 
-curl -X 'POST' 'https://api.exemplo.com/v1/upload' -H 'Accept: application/json' -H 'Content-Type: multipart/form-data' -F 'file=@example.jpg'
+- curl -X 'POST' 'https://api.exemplo.com/v1/upload' -H 'Accept: application/json' -H 'Content-Type: multipart/form-data' -F 'file=@example.jpg'
 
 📜 Licença
 
