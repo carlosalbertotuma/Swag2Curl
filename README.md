@@ -1,5 +1,8 @@
 # Swag2Curl
 
+![image](https://github.com/user-attachments/assets/b1f2e07e-3d81-4462-8758-f803872e785e)
+
+
 Este script Python gera comandos cURL com base na documentação Swagger/OpenAPI de uma API.
 
 🚀 Funcionalidades
@@ -50,6 +53,18 @@ API Key:
 📌 Exemplo de saída
 
 - curl -X 'POST' 'https://api.exemplo.com/v1/upload' -H 'Accept: application/json' -H 'Content-Type: multipart/form-data' -F 'file=@example.jpg'
+
+
+ScreemShot
+
+![image](https://github.com/user-attachments/assets/2aaa41df-c059-4894-ac4e-8c28591d8c92)
+  
+![image](https://github.com/user-attachments/assets/135f7a5b-5ed0-4c10-8fcd-dec0c0a139b5)
+
+![image](https://github.com/user-attachments/assets/f89cc901-ee16-4b10-83a1-e4543f678d48)
+
+![image](https://github.com/user-attachments/assets/b4a4513e-9d0f-4e81-9c74-03f926478897)
+
 
 📜 Licença
 
